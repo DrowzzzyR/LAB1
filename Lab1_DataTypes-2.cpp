@@ -29,18 +29,18 @@ cout <<endl<<"Bool: "<<bool(chislo);
 cout <<endl<<"Double: "<<double(chislo);
 }
 void four(){
-double a, b;
+int a, b;
 cout << "Введите значения переменных: ";
 cin >> a >> b;
 cout <<endl<< a << " * x = " << b;
 cout <<endl<< "x="<<b<<"/"<<a;
-cout <<endl<< "x="<<b/a;
+cout <<endl<< "x="<<1.*b/a;
 }
 void five(){
 int x, y;
 cout << "Введите координаты концевых точек: ";
 cin >>x>>y;
-cout <<endl<< "Серединой отрезка будет точка: "<<(x+y)/2;
+cout <<endl<< "Серединой отрезка будет точка: "<<1.*(x+y)/2;
 }
 int main()
 {
